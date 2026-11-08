@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "8f6cd1019663bd08b84ef5062c6b8fb710faea513792598ebecadb13c65e9f97",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.airpinpoint.com/openapi.json"
+  ],
+  "id": "airpinpoint-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AirPinpoint MCP setup and connection checker",
+  "description": "Generate AirPinpoint MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "airpinpoint",
+  "appName": "AirPinpoint",
+  "providerDocs": "https://api.airpinpoint.com/openapi.json",
+  "providerWebsite": "https://airpinpoint.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://airpinpoint.com/docs/api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-airpinpoint-mcp"
+}
